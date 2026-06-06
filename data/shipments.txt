@@ -1,0 +1,2 @@
+SHP-0001|ahmad|Sara Ali|Zarqa, Jordan|Laptop|IN_TRANSIT|joe
+SHP-0002|ahmad|Khalid Nasser|Irbid, Jordan|Books|PENDING|
