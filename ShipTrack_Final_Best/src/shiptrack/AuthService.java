@@ -54,8 +54,7 @@ public class AuthService {
         System.out.print("Username: ");
         String username = sc.nextLine().trim();
 
-        System.out.print("Password: ");
-        String password = sc.nextLine();
+        String password = readPassword("Password: ", sc);
 
         User user = users.get(username);
 
@@ -366,8 +365,7 @@ public class AuthService {
 
     public String promptForStrongPassword(Scanner sc) {
         while (true) {
-            System.out.print("Choose password (" + policy + "): ");
-            String password = sc.nextLine();
+            String password = readPassword("Choose password (" + policy + "): ", sc);
             String error = policy.validate(password);
             if (error == null) {
                 return password;
@@ -491,4 +489,22 @@ public class AuthService {
     private String displayName(User user) {
         return user.fullName == null || user.fullName.isEmpty() ? user.username : user.fullName;
     }
+
+    /**
+     * Reads a password without echoing it to the screen.
+     * Uses System.console() when available (SSH, real terminal).
+     * Falls back to Scanner when running inside an IDE (console is null).
+     */
+    private String readPassword(String prompt, Scanner sc) {
+        java.io.Console console = System.console();
+        if (console != null) {
+            char[] pwd = console.readPassword(prompt);
+            return pwd != null ? new String(pwd) : "";
+        } else {
+            // Fallback for IDE environments where System.console() is null
+            System.out.print(prompt);
+            return sc.nextLine();
+        }
+    }
+
 }

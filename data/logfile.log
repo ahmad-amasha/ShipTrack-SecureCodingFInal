@@ -1,246 +1,50 @@
-May 17, 2026 12:09:20 PM shiptrack.MyLogger writeToLog
-INFO: DISPATCHER_ACTION: registered_DELIVERY_PERSONNEL username=driver1
-May 17, 2026 12:09:20 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: updated_password_policy Min length=12, Min uppercase=2, Min lowercase=1, Min digits=2, Min special=1, Max login attempts=3
-May 17, 2026 12:09:20 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust123
-May 17, 2026 12:09:20 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: registered_DISPATCHER username=disp1
-May 17, 2026 12:09:20 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: removed_user username=disp1 role=DISPATCHER
-May 17, 2026 12:09:40 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-May 17, 2026 12:09:41 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_BLOCKED: locked_account username=admin
-May 17, 2026 12:09:41 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-May 17, 2026 12:09:41 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=1
-May 17, 2026 12:09:41 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=2
-May 17, 2026 12:09:41 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=3
-May 17, 2026 12:09:42 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=4
-May 17, 2026 12:09:42 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=5
-May 17, 2026 12:09:42 PM shiptrack.MyLogger writeToWarning
-WARNING: ACCOUNT_LOCKED: username=admin
-May 17, 2026 12:09:42 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-May 17, 2026 12:09:42 PM shiptrack.MyLogger writeToLog
-INFO: LOGIN_OK: username=admin role=ADMIN
-May 17, 2026 12:09:42 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-May 17, 2026 12:09:43 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=ghost
-May 17, 2026 12:09:43 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-May 17, 2026 12:09:43 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=1
-May 17, 2026 12:09:47 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_dup
-May 17, 2026 12:09:48 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_valid
-May 17, 2026 12:09:48 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_policy
-May 17, 2026 12:10:12 PM shiptrack.MyLogger writeToLog
-INFO: DISPATCHER_ACTION: registered_DELIVERY_PERSONNEL username=driver1
-May 17, 2026 12:10:12 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: updated_password_policy Min length=12, Min uppercase=2, Min lowercase=1, Min digits=2, Min special=1, Max login attempts=3
-May 17, 2026 12:10:12 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust123
-May 17, 2026 12:10:13 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: registered_DISPATCHER username=disp1
-May 17, 2026 12:10:13 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: removed_user username=disp1 role=DISPATCHER
-May 17, 2026 12:13:18 PM shiptrack.MyLogger writeToLog
+Jun 07, 2026 10:59:46 AM shiptrack.MyLogger writeToLog
 INFO: SYSTEM: ShipTrack application started
-May 17, 2026 12:13:39 PM shiptrack.MyLogger writeToLog
+Jun 07, 2026 10:59:55 AM shiptrack.MyLogger writeToLog
 INFO: SYSTEM: first-run admin account created username=admin
-May 17, 2026 12:14:07 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=ahmad
-May 17, 2026 12:16:19 PM shiptrack.MyLogger writeToLog
+Jun 07, 2026 11:07:53 AM shiptrack.MyLogger writeToLog
+INFO: REGISTER: new_customer username=m7md
+Jun 07, 2026 11:08:23 AM shiptrack.MyLogger writeToLog
 INFO: LOGIN_OK: username=admin role=ADMIN
-May 17, 2026 12:17:06 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: registered_DISPATCHER username=m7md
-May 17, 2026 12:17:26 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: registered_DELIVERY_PERSONNEL username=joe
-May 17, 2026 12:22:09 PM shiptrack.MyLogger writeToLog
+Jun 07, 2026 11:08:47 AM shiptrack.MyLogger writeToLog
+INFO: ADMIN_ACTION: registered_DISPATCHER username=ahmad
+Jun 07, 2026 11:09:36 AM shiptrack.MyLogger writeToLog
 INFO: LOGOUT: username=admin
-May 17, 2026 12:22:20 PM shiptrack.MyLogger writeToLog
-INFO: LOGIN_OK: username=m7md role=DISPATCHER
-May 17, 2026 12:23:13 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: ShipTrack application started
-May 17, 2026 12:23:25 PM shiptrack.MyLogger writeToLog
-INFO: LOGIN_OK: username=m7md role=DISPATCHER
-May 17, 2026 12:24:02 PM shiptrack.MyLogger writeToLog
-INFO: LOGOUT: username=m7md
-May 17, 2026 12:24:11 PM shiptrack.MyLogger writeToLog
-INFO: LOGIN_OK: username=ahmad role=CUSTOMER
-May 17, 2026 12:24:36 PM shiptrack.MyLogger writeToLog
-INFO: CUSTOMER_ACTION: created_shipment id=SHP-0001 customer=ahmad
-May 17, 2026 12:24:57 PM shiptrack.MyLogger writeToLog
-INFO: CUSTOMER_ACTION: created_shipment id=SHP-0002 customer=ahmad
-May 17, 2026 12:25:01 PM shiptrack.MyLogger writeToLog
+Jun 07, 2026 11:09:42 AM shiptrack.MyLogger writeToLog
+INFO: LOGIN_OK: username=ahmad role=DISPATCHER
+Jun 07, 2026 11:10:08 AM shiptrack.MyLogger writeToLog
+INFO: DISPATCHER_ACTION: registered_DELIVERY_PERSONNEL username=omar
+Jun 07, 2026 11:12:06 AM shiptrack.MyLogger writeToLog
 INFO: LOGOUT: username=ahmad
-May 17, 2026 12:25:09 PM shiptrack.MyLogger writeToLog
-INFO: LOGIN_OK: username=m7md role=DISPATCHER
-May 17, 2026 12:25:19 PM shiptrack.MyLogger writeToLog
-INFO: DISPATCHER_ACTION: assigned_delivery shipmentId=SHP-0001 driver=joe
-May 17, 2026 12:25:27 PM shiptrack.MyLogger writeToLog
-INFO: LOGOUT: username=m7md
-May 17, 2026 12:25:34 PM shiptrack.MyLogger writeToLog
-INFO: LOGIN_OK: username=joe role=DELIVERY_PERSONNEL
-May 17, 2026 12:25:47 PM shiptrack.MyLogger writeToLog
-INFO: DRIVER_ACTION: updated_status shipmentId=SHP-0001 driver=joe newStatus=IN_TRANSIT
-May 17, 2026 12:36:36 PM shiptrack.MyLogger writeToLog
-INFO: LOGOUT: username=joe
-May 17, 2026 12:36:47 PM shiptrack.MyLogger writeToLog
+Jun 07, 2026 11:12:12 AM shiptrack.MyLogger writeToLog
 INFO: LOGIN_OK: username=admin role=ADMIN
-May 17, 2026 12:36:56 PM shiptrack.MyLogger writeToLog
+Jun 07, 2026 11:12:25 AM shiptrack.MyLogger writeToLog
 INFO: ADMIN_ACTION: updated_password_policy Min length=10, Min uppercase=1, Min lowercase=1, Min digits=1, Min special=1, Max login attempts=5
-May 17, 2026 12:48:15 PM shiptrack.MyLogger writeToLog
+Jun 07, 2026 11:12:32 AM shiptrack.MyLogger writeToLog
 INFO: LOGOUT: username=admin
-May 17, 2026 12:48:18 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: ShipTrack application closed
-May 17, 2026 1:24:17 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-May 17, 2026 1:24:17 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_BLOCKED: locked_account username=admin
-May 17, 2026 1:24:17 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-May 17, 2026 1:24:17 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=1
-May 17, 2026 1:24:17 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=2
-May 17, 2026 1:24:18 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=3
-May 17, 2026 1:24:18 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=4
-May 17, 2026 1:24:18 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=5
-May 17, 2026 1:24:18 PM shiptrack.MyLogger writeToWarning
-WARNING: ACCOUNT_LOCKED: username=admin
-May 17, 2026 1:24:18 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-May 17, 2026 1:24:18 PM shiptrack.MyLogger writeToLog
+Jun 07, 2026 11:12:40 AM shiptrack.MyLogger writeToLog
+INFO: LOGIN_OK: username=m7md role=CUSTOMER
+Jun 07, 2026 11:12:51 AM shiptrack.MyLogger writeToLog
+INFO: CUSTOMER_ACTION: created_shipment id=SHP-0001 customer=m7md
+Jun 07, 2026 11:13:16 AM shiptrack.MyLogger writeToLog
+INFO: LOGOUT: username=m7md
+Jun 07, 2026 11:13:27 AM shiptrack.MyLogger writeToLog
+INFO: LOGIN_OK: username=ahmad role=DISPATCHER
+Jun 07, 2026 11:15:26 AM shiptrack.MyLogger writeToLog
+INFO: DISPATCHER_ACTION: assigned_delivery shipmentId=SHP-0001 driver=omar
+Jun 07, 2026 11:15:32 AM shiptrack.MyLogger writeToLog
+INFO: LOGOUT: username=ahmad
+Jun 07, 2026 11:15:40 AM shiptrack.MyLogger writeToLog
+INFO: LOGIN_OK: username=omar role=DELIVERY_PERSONNEL
+Jun 07, 2026 11:15:51 AM shiptrack.MyLogger writeToLog
+INFO: DRIVER_ACTION: updated_status shipmentId=SHP-0001 driver=omar newStatus=PICKED_UP
+Jun 07, 2026 11:15:59 AM shiptrack.MyLogger writeToLog
+INFO: LOGOUT: username=omar
+Jun 07, 2026 11:16:15 AM shiptrack.MyLogger writeToLog
+INFO: LOGIN_OK: username=m7md role=CUSTOMER
+Jun 07, 2026 11:29:04 AM shiptrack.MyLogger writeToLog
+INFO: SYSTEM: ShipTrack application started
+Jun 07, 2026 11:29:13 AM shiptrack.MyLogger writeToLog
 INFO: LOGIN_OK: username=admin role=ADMIN
-May 17, 2026 1:24:18 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-May 17, 2026 1:24:19 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=ghost
-May 17, 2026 1:24:19 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-May 17, 2026 1:24:19 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=1
-May 17, 2026 1:24:19 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_dup
-May 17, 2026 1:24:19 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_valid
-May 17, 2026 1:24:19 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_policy
-May 17, 2026 1:24:19 PM shiptrack.MyLogger writeToLog
-INFO: DISPATCHER_ACTION: registered_DELIVERY_PERSONNEL username=driver1
-May 17, 2026 1:24:19 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: updated_password_policy Min length=12, Min uppercase=2, Min lowercase=1, Min digits=2, Min special=1, Max login attempts=3
-May 17, 2026 1:24:20 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust123
-May 17, 2026 1:24:20 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: registered_DISPATCHER username=disp1
-May 17, 2026 1:24:20 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: removed_user username=disp1 role=DISPATCHER
-Jun 01, 2026 8:41:39 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-Jun 01, 2026 8:41:39 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_BLOCKED: locked_account username=admin
-Jun 01, 2026 8:41:39 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-Jun 01, 2026 8:41:39 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=1
-Jun 01, 2026 8:41:39 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=2
-Jun 01, 2026 8:41:40 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=3
-Jun 01, 2026 8:41:40 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=4
-Jun 01, 2026 8:41:40 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=5
-Jun 01, 2026 8:41:40 PM shiptrack.MyLogger writeToWarning
-WARNING: ACCOUNT_LOCKED: username=admin
-Jun 01, 2026 8:41:40 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-Jun 01, 2026 8:41:40 PM shiptrack.MyLogger writeToLog
-INFO: LOGIN_OK: username=admin role=ADMIN
-Jun 01, 2026 8:41:40 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-Jun 01, 2026 8:41:41 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=ghost
-Jun 01, 2026 8:41:41 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-Jun 01, 2026 8:41:41 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=1
-Jun 01, 2026 8:41:41 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_dup
-Jun 01, 2026 8:41:41 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_valid
-Jun 01, 2026 8:41:41 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_policy
-Jun 01, 2026 8:41:42 PM shiptrack.MyLogger writeToLog
-INFO: DISPATCHER_ACTION: registered_DELIVERY_PERSONNEL username=driver1
-Jun 01, 2026 8:41:42 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: updated_password_policy Min length=12, Min uppercase=2, Min lowercase=1, Min digits=2, Min special=1, Max login attempts=3
-Jun 01, 2026 8:41:42 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust123
-Jun 01, 2026 8:41:42 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: registered_DISPATCHER username=disp1
-Jun 01, 2026 8:41:42 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: removed_user username=disp1 role=DISPATCHER
-Jun 01, 2026 8:42:51 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-Jun 01, 2026 8:42:51 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_BLOCKED: locked_account username=admin
-Jun 01, 2026 8:42:52 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-Jun 01, 2026 8:42:52 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=1
-Jun 01, 2026 8:42:52 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=2
-Jun 01, 2026 8:42:52 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=3
-Jun 01, 2026 8:42:52 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=4
-Jun 01, 2026 8:42:52 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=5
-Jun 01, 2026 8:42:52 PM shiptrack.MyLogger writeToWarning
-WARNING: ACCOUNT_LOCKED: username=admin
-Jun 01, 2026 8:42:52 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-Jun 01, 2026 8:42:53 PM shiptrack.MyLogger writeToLog
-INFO: LOGIN_OK: username=admin role=ADMIN
-Jun 01, 2026 8:42:53 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-Jun 01, 2026 8:42:53 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=ghost
-Jun 01, 2026 8:42:53 PM shiptrack.MyLogger writeToLog
-INFO: SYSTEM: first-run admin account created username=admin
-Jun 01, 2026 8:42:53 PM shiptrack.MyLogger writeToWarning
-WARNING: LOGIN_FAIL: invalid_credentials username=admin attempts=1
-Jun 01, 2026 8:43:30 PM shiptrack.MyLogger writeToLog
-INFO: DISPATCHER_ACTION: registered_DELIVERY_PERSONNEL username=driver1
-Jun 01, 2026 8:43:30 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: updated_password_policy Min length=12, Min uppercase=2, Min lowercase=1, Min digits=2, Min special=1, Max login attempts=3
-Jun 01, 2026 8:43:30 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust123
-Jun 01, 2026 8:43:31 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: registered_DISPATCHER username=disp1
-Jun 01, 2026 8:43:31 PM shiptrack.MyLogger writeToLog
-INFO: ADMIN_ACTION: removed_user username=disp1 role=DISPATCHER
-Jun 01, 2026 8:43:45 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_valid
-Jun 01, 2026 8:43:52 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_dup
-Jun 01, 2026 8:43:53 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_valid
-Jun 01, 2026 8:43:53 PM shiptrack.MyLogger writeToLog
-INFO: REGISTER: new_customer username=cust_policy
+Jun 07, 2026 11:29:16 AM shiptrack.MyLogger writeToLog
+INFO: LOGOUT: username=admin
